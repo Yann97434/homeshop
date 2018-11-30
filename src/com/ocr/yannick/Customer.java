@@ -12,7 +12,6 @@ public class Customer {
     public String getFullname() {
         return fullname;
     }
-
     public String getAddress() {
         return address;
     }

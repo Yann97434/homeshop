@@ -12,20 +12,16 @@ public class Product {
     }
 
     /**
-     * Display the full description of the product
+     * Display a full description of the product
      */
     public void look() {
-
-
+        System.out.println(String.format(name + " : " + price + "%n" + description));
     }
 
     /**
-     *
-     * @param bill the concerned the bill
-     * @param quantity the quantity to add
+     * Add the product to a Bill
      */
     public void buy(Bill bill, Integer quantity) {
-
 
     }
 
